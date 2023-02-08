@@ -4,7 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "tsnd src/app.ts --respawn --transpile-only --exit-child"
+    "start": "node dist/app.js",
+    "dev": "tsnd src/app.ts --respawn --transpile-only --exit-child",
+    "build": "tsc"
   },
   "devDependencies": {
     "@types/express": "^4.17.17",
